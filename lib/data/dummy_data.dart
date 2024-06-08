@@ -13,7 +13,7 @@ final List<ShoeModel> availableShoes = [
   ),
   ShoeModel(
     name: "NIKE",
-    model: "AIR-JORDAN MID",
+    model: "AIR-JORDAN ",
     price: 190.00,
     imgAddress: "assets/images/nike8.png",
     modelColor: const Color(0xff3F7943),
@@ -34,7 +34,7 @@ final List<ShoeModel> availableShoes = [
   ),
   ShoeModel(
     name: "NIKE",
-    model: "AIR-JORDAN LOW",
+    model: "AIR-JORDAN ",
     price: 150.00,
     imgAddress: "assets/images/nike5.png",
     modelColor: const Color(0xff37376B),
@@ -48,14 +48,14 @@ final List<ShoeModel> availableShoes = [
   ),
   ShoeModel(
     name: "NIKE",
-    model: "AIR-JORDAN LOW",
+    model: "AIR-JORDAN ",
     price: 150.00,
     imgAddress: "assets/images/nike7.png",
     modelColor: const Color(0xffD68043),
   ),
   ShoeModel(
     name: "NIKE",
-    model: "AIR-JORDAN LOW",
+    model: "AIR-JORDAN ",
     price: 150.00,
     imgAddress: "assets/images/nike6.png",
     modelColor: const Color(0xffE2E3E5),
