@@ -6,9 +6,10 @@ import '../../../utils/constants.dart';
 
 class CustomDetailsAppBar extends StatelessWidget
     implements PreferredSizeWidget {
-  const CustomDetailsAppBar({
+   CustomDetailsAppBar({
     super.key,
   });
+ 
 
   @override
   Widget build(BuildContext context) {

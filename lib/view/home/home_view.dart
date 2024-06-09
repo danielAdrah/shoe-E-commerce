@@ -116,7 +116,7 @@ class _HomeViewState extends State<HomeView> {
                         child: RotationTransition(
                           turns: AlwaysStoppedAnimation(-15 / 360),
                           child: Hero(
-                            tag: model.model,
+                            tag: '${model.model}_${model.imgAddress}',
                             child: Image.asset(
                               model.imgAddress,
                               width: size.width * 0.45,
