@@ -10,6 +10,7 @@ import 'package:sneakers_shop/utils/constants.dart';
 
 import '../../model/shoe_model.dart';
 import '../../theme/custom_app_theme.dart';
+import '../../utils/app_methods.dart';
 import 'components/custome_detail_appBar.dart';
 
 class DetailsView extends StatefulWidget {
@@ -127,7 +128,7 @@ class _DetailsViewState extends State<DetailsView> {
             height: height / 15,
             color: widget.model.modelColor,
             onPressed: () {
-              // AppMethods.addToCart(widget.model, context);
+              AppMethods.addToCart(widget.model, context);
             },
             child: Text(
               "ADD TO BAG",

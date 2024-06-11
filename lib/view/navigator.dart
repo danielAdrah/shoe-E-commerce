@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
 import '../utils/constants.dart';
+import 'bag/bag_view.dart';
 import 'home/home_view.dart';
 
 class MainNavigator extends StatefulWidget {
@@ -18,7 +19,7 @@ class MainNavigator extends StatefulWidget {
 class _MainNavigatorState extends State<MainNavigator> {
   List<Widget> screens = [
     HomeView(),
-    Container(color: Colors.green),
+    BagView(),
     Container(color: Colors.pink),
     Container(color: Colors.purpleAccent),
     Container(color: Colors.red)
