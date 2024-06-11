@@ -8,6 +8,7 @@ import 'package:flutter/widgets.dart';
 import '../utils/constants.dart';
 import 'bag/bag_view.dart';
 import 'home/home_view.dart';
+import 'userProfile/user_profile_view.dart';
 
 class MainNavigator extends StatefulWidget {
   const MainNavigator({super.key});
@@ -20,9 +21,7 @@ class _MainNavigatorState extends State<MainNavigator> {
   List<Widget> screens = [
     HomeView(),
     BagView(),
-    Container(color: Colors.pink),
-    Container(color: Colors.purpleAccent),
-    Container(color: Colors.red)
+    UserProfileView(),
   ];
   PageController pageController = PageController();
   int selectedIndex = 0;
