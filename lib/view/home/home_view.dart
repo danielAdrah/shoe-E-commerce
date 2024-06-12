@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
+import 'package:like_button/like_button.dart';
 
 import 'package:sneakers_shop/data/dummy_data.dart';
 
@@ -99,15 +100,7 @@ class _HomeViewState extends State<HomeView> {
                         ),
                       ),
                     ),
-                    Positioned(
-                      top: 0,
-                      right: 5,
-                      child: IconButton(
-                        onPressed: () {},
-                        icon: Icon(Icons.favorite_border),
-                        color: AppConstantsColor.darkTextColor,
-                      ),
-                    ),
+                    Positioned(top: 15, right: 5, child: LikeButton()),
                     Positioned(
                       top: 55,
                       child: FadeInDown(
